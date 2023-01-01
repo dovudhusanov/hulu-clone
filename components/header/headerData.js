@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/24/outline";
 import styles from '../../styles/Home.module.css';
 
-export const NavData = [
+export const HeaderData = [
     {
         title: "Home",
         path: "/",

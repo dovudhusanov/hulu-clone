@@ -1,0 +1,29 @@
+.notFound{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.notFound h1{
+    font-size: 40px;
+}
+
+.notFound a{
+    color: white;
+    background-color: var(--primaryColor);
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
